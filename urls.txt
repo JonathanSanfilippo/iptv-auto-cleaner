@@ -1,0 +1,2 @@
+https://example.com/lista1.m3u
+https://example.com/lista2.m3u
