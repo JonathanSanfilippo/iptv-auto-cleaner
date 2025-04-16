@@ -44,11 +44,12 @@ for file in "$COUNTRIES_DIR"/*.txt; do
       ((total_entries++))
 
       if $CHECK_STREAMS; then
-        curl -s -L --max-time 5 --head "$url" | grep -iq "^HTTP/.* 2" || {
+        status=$(curl -s -L -A "Mozilla/5.0" --max-time 5 --head "$url" | grep -i "^HTTP" | head -n 1 | awk '{print $2}')
+        if [[ "$status" =~ ^(404|410|500|502|503|000)$ ]]; then
           printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n" "$name" "$logo" "$country" "$name" "$url" >> "$SKIPPED_FILE"
           ((skipped_entries++))
           continue
-        }
+        fi
       fi
 
       printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n" "$name" "$logo" "$country" "$name" "$url" >> "$OUTPUT_FILE"
@@ -59,9 +60,9 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   rm -f "$temp_file"
 done
 
-# Scrive log informativo
+# Scrive log informativo su righe separate
 {
-  echo "Last update: $(date '+%d %b %H:%M')"
+  echo "Last update: $(date '+%d %b %Y %H:%M')"
   echo "Total entries: $total_entries"
   echo "Valid channels: $valid_entries"
   echo "Skipped channels: $skipped_entries"
