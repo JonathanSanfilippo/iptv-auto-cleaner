@@ -4,11 +4,11 @@ CHECK_STREAMS=true
 REPO_DIR="$(dirname "$(readlink -f "$0")")"
 COUNTRIES_DIR="$REPO_DIR/lists/countries"
 ORIGINAL_DIR="$REPO_DIR/lists/original"
+INFO_DIR="$REPO_DIR/lists/info"
 SKIPPED_FILE="$REPO_DIR/lists/skipped.m3u"
 OUTPUT_FILE="$ORIGINAL_DIR/original.m3u"
-INFO_FILE="$REPO_DIR/lists/last_update.txt"
 
-mkdir -p "$ORIGINAL_DIR"
+mkdir -p "$ORIGINAL_DIR" "$INFO_DIR"
 rm -f "$OUTPUT_FILE" "$SKIPPED_FILE"
 echo "#EXTM3U" > "$OUTPUT_FILE"
 echo "#EXTM3U" > "$SKIPPED_FILE"
@@ -46,13 +46,15 @@ for file in "$COUNTRIES_DIR"/*.txt; do
       if $CHECK_STREAMS; then
         status=$(curl -s -L -A "Mozilla/5.0" --max-time 5 --head "$url" | grep -i "^HTTP" | head -n 1 | awk '{print $2}')
         if [[ "$status" =~ ^(404|410|500|502|503|000)$ ]]; then
-          printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n" "$name" "$logo" "$country" "$name" "$url" >> "$SKIPPED_FILE"
+          printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n" \
+            "$name" "$logo" "$country" "$name" "$url" >> "$SKIPPED_FILE"
           ((skipped_entries++))
           continue
         fi
       fi
 
-      printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n" "$name" "$logo" "$country" "$name" "$url" >> "$OUTPUT_FILE"
+      printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n" \
+        "$name" "$logo" "$country" "$name" "$url" >> "$OUTPUT_FILE"
       ((valid_entries++))
     fi
   done < "$temp_file"
@@ -60,12 +62,20 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   rm -f "$temp_file"
 done
 
-# Scrive log informativo su righe separate
+# Scrive file informativi separati
+echo "$(date '+%d %b %Y %H:%M')" > "$INFO_DIR/last_update.txt"
+echo "$total_entries" > "$INFO_DIR/total.txt"
+echo "$valid_entries" > "$INFO_DIR/valid.txt"
+echo "$skipped_entries" > "$INFO_DIR/skipped.txt"
+
+# Scrive file JSON aggregato
+cat <<EOF > "$INFO_DIR/stats.json"
 {
-  echo "Last update: $(date '+%d %b %Y %H:%M')"
-  echo "Total entries: $total_entries"
-  echo "Valid channels: $valid_entries"
-  echo "Skipped channels: $skipped_entries"
-} > "$INFO_FILE"
+  "last_update": "$(date '+%Y-%m-%d %H:%M:%S')",
+  "total": $total_entries,
+  "valid": $valid_entries,
+  "skipped": $skipped_entries
+}
+EOF
 
 echo "✅ Completato. Canali validi: $valid_entries / $total_entries"
