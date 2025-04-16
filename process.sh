@@ -28,7 +28,7 @@ for file in "$SRC_DIR"/*.m3u; do
       getline url
       if (url ~ /^http/) {
         gsub(/\s+$/, "", name)
-        printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/11113cc80977b7c9417ce4fb349cbd35_low_res_Folder_Common.png\" tvg-id=\"\" group-title=\"Altre Liste\",%s\n%s\n\n", name, name, url >> output
+        printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"https://img.icons8.com/office40/512/raspberry-pi.png\" tvg-id=\"\" group-title=\"Altre Liste\",%s\n%s\n\n", name, name, url >> output
       }
     }
   ' "$file"
