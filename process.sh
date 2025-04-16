@@ -63,75 +63,27 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   rm -f "$temp_file"
 done
 
-# Mappa country_raw -> identificatore EPG tvkaista.net
-get_epg_id_tvkaista() {
-  case "$1" in
-    italy) echo "superguidatv.it" ;;
-    uk) echo "tv24.co.uk" ;;
-    fr) echo "programme-tv.net" ;;
-    de) echo "web.magentatv.de" ;;
-    es) echo "movistarplus.es" ;;
-    pt) echo "rtp.pt" ;;
-    us) echo "tvguide.com" ;;
-    au) echo "ontvtonight.com_au" ;;
-    *) echo "" ;;
-  esac
-}
-
-# Mappa fallback epg.best se tvkaista fallisce
-get_epg_fallback_url() {
-  case "$1" in
-    italy) echo "https://epg.best/it.xml" ;;
-    uk) echo "https://epg.best/gb.xml" ;;
-    fr) echo "https://epg.best/fr.xml" ;;
-    de) echo "https://epg.best/de.xml" ;;
-    es) echo "https://epg.best/es.xml" ;;
-    pt) echo "https://epg.best/pt.xml" ;;
-    us) echo "https://epg.best/us.xml" ;;
-    au) echo "https://epg.best/au.xml" ;;
-    *) echo "" ;;
-  esac
-}
-
-EPG_ID=$(get_epg_id_tvkaista "$country_raw")
+# EPG Italia da guida.tv (iptv-org)
+EPG_XML_URL="https://iptv-org.github.io/epg/guides/it/guida.tv.xml"
 EPG_XML_FILE="$INFO_DIR/epg.xml"
-EPG_XML_URL="https://xmltv.tvkaista.net/guides/${EPG_ID}.xml"
+EPG_JSON_FILE="$INFO_DIR/epg.json"
 
-# Step 1: download da tvkaista
-if [[ -n "$EPG_ID" ]]; then
-  echo "⬇️ Scaricamento EPG per $country_raw da tvkaista.net..."
-  if curl -fsSL "$EPG_XML_URL" -o "$EPG_XML_FILE"; then
-    echo "✅ EPG scaricato da tvkaista.net ($EPG_XML_URL)"
-  else
-    echo "⚠️ Errore su tvkaista.net ($EPG_XML_URL)"
-  fi
-else
-  echo "⚠️ Nessun EPG configurato per $country_raw"
-fi
+echo "⬇️ Scaricamento EPG da guida.tv (iptv-org)..."
+if curl -fsSL "$EPG_XML_URL" -o "$EPG_XML_FILE"; then
+  echo "✅ EPG XML scaricato da guida.tv"
 
-# Step 2: fallback da epg.best se necessario
-if [[ ! -s "$EPG_XML_FILE" ]]; then
-  FALLBACK_URL=$(get_epg_fallback_url "$country_raw")
-  if [[ -n "$FALLBACK_URL" ]]; then
-    echo "🔁 Provo fallback da epg.best..."
-    if curl -fsSL "$FALLBACK_URL" -o "$EPG_XML_FILE"; then
-      echo "✅ EPG fallback scaricato da $FALLBACK_URL"
-    else
-      echo "❌ Fallito anche fallback da epg.best"
-    fi
-  fi
-fi
-
-# Step 3: conversione in JSON (solo se XML valido)
-if [[ -s "$EPG_XML_FILE" ]]; then
   echo "📦 Convertendo EPG in JSON..."
   xmllint --format "$EPG_XML_FILE" \
     | grep -E '<programme|<title' \
     | sed 's/<programme /\n{\n  /; s/ channel=/\"channel\":/; s/ start=/, \"start\":/; s/ stop=/, \"stop\":/; s/<title[^>]*>/, \"title\": \"/; s/<\/title>/\"/; s/\">/, \"title\": \"/g; s/\" \//\"/g; s/>.*//' \
     | jq -Rs '[split("\n")[] | select(length > 10)] | map(fromjson?)' > "$EPG_JSON_FILE"
+
+  echo "✅ epg.json generato."
 else
-  echo "❌ EPG XML non disponibile o vuoto."
+  echo "❌ Errore nel download dell'EPG da guida.tv"
 fi
+
+
 
 
 # Scrive file informativi separati
