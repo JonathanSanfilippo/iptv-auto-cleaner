@@ -61,7 +61,7 @@ done
 
 # Scrive log informativo
 {
-  echo "Last update: $(date '+%Y-%m-%d %H:%M')"
+  echo "Last update: $(date '+%H:%M')"
   echo "Total entries: $total_entries"
   echo "Valid channels: $valid_entries"
   echo "Skipped channels: $skipped_entries"
