@@ -71,7 +71,7 @@ echo "$skipped_entries" > "$INFO_DIR/skipped.txt"
 # Scrive file JSON aggregato
 cat <<EOF > "$INFO_DIR/stats.json"
 {
-  "last_update": "$(date '+%Y-%m-%d %H:%M:%S')",
+  "last_update": "$(date '+%d %b %H:%M')",
   "total": $total_entries,
   "valid": $valid_entries,
   "skipped": $skipped_entries
