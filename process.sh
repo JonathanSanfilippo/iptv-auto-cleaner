@@ -33,3 +33,8 @@ for file in "$SRC_DIR"/*.m3u; do
     }
   ' "$file"
 done
+
+
+# Scrive un file con l'ultimo aggiornamento
+UPDATE_FILE="$REPO_DIR/lists/last_update.txt"
+echo "Ultimo aggiornamento liste: $(date '+%Y-%m-%d %H:%M:%S') by iptv-auto-cleaner" > "$UPDATE_FILE"
