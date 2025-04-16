@@ -40,4 +40,4 @@ awk -v output="$OUTFILE" '
 ' "$SRC_FILE"
 
 # Scrive data/ora aggiornamento
-echo "Last Update list: $(date '+%d-%m-%y %H:%M')" > "$UPDATE_FILE"
+echo "Last update of the channel lists at $(date '+H:%M')" > "$UPDATE_FILE"
