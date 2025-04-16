@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
+https://github.com/Tundrak/IPTV-Italia/raw/main/iptvita.m3u
