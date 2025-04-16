@@ -64,10 +64,26 @@ for file in "$COUNTRIES_DIR"/*.txt; do
 done
 
 # Scarica e converte l'EPG Italia in JSON
+EPG_XML_URL="https://iptv-org.github.io/epg/guides/it.xml"
 EPG_GZ_URL="https://iptv-org.github.io/epg/guides/it.xml.gz"
 EPG_XML_FILE="$INFO_DIR/epg.xml"
-echo "⬇️ Scaricando EPG XML..."
-curl -s "$EPG_GZ_URL" | gunzip -c > "$EPG_XML_FILE"
+
+echo "⬇️ Tentativo di scaricare EPG XML non compresso..."
+if curl -fsSL "$EPG_XML_URL" -o "$EPG_XML_FILE"; then
+  echo "✅ EPG XML scaricato con successo."
+else
+  echo "⚠️ EPG XML non disponibile. Provo con il file compresso..."
+  if curl -fsSL "$EPG_GZ_URL" -o "${EPG_XML_FILE}.gz"; then
+    if gunzip -f "${EPG_XML_FILE}.gz"; then
+      echo "✅ EPG XML.gz scaricato e decompresso."
+    else
+      echo "❌ Errore nella decompressione del file .gz."
+      rm -f "${EPG_XML_FILE}.gz"
+    fi
+  else
+    echo "❌ Impossibile scaricare l'EPG, né XML né GZ."
+  fi
+fi
 
 if [[ -s "$EPG_XML_FILE" ]]; then
   echo "📦 Convertendo EPG in JSON..."
@@ -78,6 +94,7 @@ if [[ -s "$EPG_XML_FILE" ]]; then
 else
   echo "❌ EPG XML non disponibile."
 fi
+
 
 # Scrive file informativi separati
 echo "$(date '+%d %b %Y %H:%M')" > "$INFO_DIR/last_update.txt"
