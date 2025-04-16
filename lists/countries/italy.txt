@@ -1,1 +1,1 @@
-https://iptv-org.github.io/iptv/languages/ita.m3u
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_italy.m3u8
