@@ -1,1 +1,1 @@
-https://github.com/Tundrak/IPTV-Italia/raw/main/iptvita.m3u
+https://tivustream.website/urls/listm3u
