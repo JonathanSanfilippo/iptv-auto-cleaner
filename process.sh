@@ -20,17 +20,23 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   done < "$file"
 
   awk -v output="$OUTPUT_FILE" -v group="$country" '
-    BEGIN { RS="\r?\n"; FS="," }
-    /^#EXTINF/ {
-      name = $2
-      if (name ~ /\[COLOR|\[B|\]/ || name == "") next
-      getline url
-      if (url ~ /^http/) {
-        gsub(/\s+$/, "", name)
-        printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"https://img.icons8.com/office40/512/raspberry-pi.png\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n", name, group, name, url >> output
-      }
+  BEGIN { RS="\r?\n"; FS="," }
+  /^#EXTINF/ {
+    name = $2
+    logo = ""
+    match($0, /tvg-logo="([^"]+)"/, arr)
+    if (arr[1] != "") logo = arr[1]
+    else logo = "https://img.icons8.com/office40/512/raspberry-pi.png"
+    
+    if (name ~ /\[COLOR|\[B|\]/ || name == "") next
+    getline url
+    if (url ~ /^http/) {
+      gsub(/\s+$/, "", name)
+      printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n", name, logo, group, name, url >> output
     }
-  ' "/tmp/temp_$country.m3u"
+  }
+' "/tmp/temp_$country.m3u"
+
 
   rm -f "/tmp/temp_$country.m3u"
 done
