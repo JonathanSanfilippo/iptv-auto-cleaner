@@ -63,26 +63,34 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   rm -f "$temp_file"
 done
 
-# Scarica e converte l'EPG Italia in JSON
-EPG_XML_URL="https://iptv-org.github.io/epg/guides/it.xml"
-EPG_GZ_URL="https://iptv-org.github.io/epg/guides/it.xml.gz"
+# Mappa country_raw -> identificatore EPG tvkaista.net
+get_epg_id() {
+  case "$1" in
+    italy) echo "superguidatv.it" ;;
+    uk) echo "tv24.co.uk" ;;
+    fr) echo "programme-tv.net" ;;
+    de) echo "web.magentatv.de" ;;
+    es) echo "movistarplus.es" ;;
+    pt) echo "rtp.pt" ;;
+    us) echo "tvguide.com" ;;
+    au) echo "ontvtonight.com_au" ;;
+    *) echo "" ;;
+  esac
+}
+
+EPG_ID=$(get_epg_id "$country_raw")
 EPG_XML_FILE="$INFO_DIR/epg.xml"
 
-echo "⬇️ Tentativo di scaricare EPG XML non compresso..."
-if curl -fsSL "$EPG_XML_URL" -o "$EPG_XML_FILE"; then
-  echo "✅ EPG XML scaricato con successo."
-else
-  echo "⚠️ EPG XML non disponibile. Provo con il file compresso..."
-  if curl -fsSL "$EPG_GZ_URL" -o "${EPG_XML_FILE}.gz"; then
-    if gunzip -f "${EPG_XML_FILE}.gz"; then
-      echo "✅ EPG XML.gz scaricato e decompresso."
-    else
-      echo "❌ Errore nella decompressione del file .gz."
-      rm -f "${EPG_XML_FILE}.gz"
-    fi
+if [[ -n "$EPG_ID" ]]; then
+  EPG_XML_URL="https://xmltv.tvkaista.net/guides/${EPG_ID}.xml"
+  echo "⬇️ Scaricamento EPG per $country_raw da tvkaista.net..."
+  if curl -fsSL "$EPG_XML_URL" -o "$EPG_XML_FILE"; then
+    echo "✅ EPG XML scaricato da $EPG_XML_URL"
   else
-    echo "❌ Impossibile scaricare l'EPG, né XML né GZ."
+    echo "❌ EPG non disponibile per $country_raw ($EPG_ID)"
   fi
+else
+  echo "⚠️ Nessun EPG configurato per $country_raw"
 fi
 
 if [[ -s "$EPG_XML_FILE" ]]; then
@@ -92,7 +100,7 @@ if [[ -s "$EPG_XML_FILE" ]]; then
     | sed 's/<programme /\n{\n  /; s/ channel=/\"channel\":/; s/ start=/, \"start\":/; s/ stop=/, \"stop\":/; s/<title[^>]*>/, \"title\": \"/; s/<\/title>/\"/; s/\">/, \"title\": \"/g; s/\" \//\"/g; s/>.*//' \
     | jq -Rs '[split("\n")[] | select(length > 10)] | map(fromjson?)' > "$EPG_JSON_FILE"
 else
-  echo "❌ EPG XML non disponibile."
+  echo "❌ EPG XML non disponibile o vuoto."
 fi
 
 
