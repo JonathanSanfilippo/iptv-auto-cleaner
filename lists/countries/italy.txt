@@ -1,2 +1,2 @@
 https://raw.githubusercontent.com/Free-TV/IPTV/refs/heads/master/playlists/playlist_italy.m3u8
-https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/altri.m3u
+https://tivustream.website/urls/listm3u
