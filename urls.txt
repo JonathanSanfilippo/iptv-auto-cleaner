@@ -1,1 +1,1 @@
-https://ip-tv.app/Italy
+https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/all.m3u
