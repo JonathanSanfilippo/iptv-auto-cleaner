@@ -63,29 +63,6 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   rm -f "$temp_file"
 done
 
-# EPG Italia da guida.tv (iptv-org)
-EPG_XML_URL="https://iptv-org.github.io/epg/guides/it/guida.tv.xml"
-EPG_XML_FILE="$INFO_DIR/epg.xml"
-EPG_JSON_FILE="$INFO_DIR/epg.json"
-
-echo "⬇️ Scaricamento EPG da guida.tv (iptv-org)..."
-if curl -fsSL "$EPG_XML_URL" -o "$EPG_XML_FILE"; then
-  echo "✅ EPG XML scaricato da guida.tv"
-
-  echo "📦 Convertendo EPG in JSON..."
-  xmllint --format "$EPG_XML_FILE" \
-    | grep -E '<programme|<title' \
-    | sed 's/<programme /\n{\n  /; s/ channel=/\"channel\":/; s/ start=/, \"start\":/; s/ stop=/, \"stop\":/; s/<title[^>]*>/, \"title\": \"/; s/<\/title>/\"/; s/\">/, \"title\": \"/g; s/\" \//\"/g; s/>.*//' \
-    | jq -Rs '[split("\n")[] | select(length > 10)] | map(fromjson?)' > "$EPG_JSON_FILE"
-
-  echo "✅ epg.json generato."
-else
-  echo "❌ Errore nel download dell'EPG da guida.tv"
-fi
-
-
-
-
 # Scrive file informativi separati
 echo "$(date '+%d %b %Y %H:%M')" > "$INFO_DIR/last_update.txt"
 echo "$total_entries" > "$INFO_DIR/total.txt"
