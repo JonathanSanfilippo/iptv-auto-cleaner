@@ -1,12 +1,13 @@
 #!/bin/bash
 
 CHECK_STREAMS=true
-REPO_DIR="$(dirname \"$(readlink -f \"$0\")\")"
+REPO_DIR="$(dirname "$(readlink -f "$0")")"
 COUNTRIES_DIR="$REPO_DIR/lists/countries"
 ORIGINAL_DIR="$REPO_DIR/lists/original"
 INFO_DIR="$REPO_DIR/lists/info"
 SKIPPED_FILE="$REPO_DIR/lists/skipped.m3u"
 OUTPUT_FILE="$ORIGINAL_DIR/original.m3u"
+EPG_JSON_FILE="$INFO_DIR/epg.json"
 
 mkdir -p "$ORIGINAL_DIR" "$INFO_DIR"
 rm -f "$OUTPUT_FILE" "$SKIPPED_FILE"
@@ -62,8 +63,21 @@ for file in "$COUNTRIES_DIR"/*.txt; do
   rm -f "$temp_file"
 done
 
-# OPTIONAL: to add TivùStream manually, download it separately and place it in the countries/ folder as italy-tivustream.txt or similar.
-# You can then add it to countries/italy.txt or another group file.
+# Scarica e converte l'EPG Italia in JSON
+EPG_GZ_URL="https://www.epgitalia.tv/gzip"
+EPG_XML_FILE="$INFO_DIR/epg.xml"
+echo "⬇️ Scaricando EPG XML..."
+curl -s "$EPG_GZ_URL" | gunzip -c > "$EPG_XML_FILE"
+
+if [[ -s "$EPG_XML_FILE" ]]; then
+  echo "📦 Convertendo EPG in JSON..."
+  xmllint --format "$EPG_XML_FILE" \
+    | grep -E '<programme|<title' \
+    | sed 's/<programme /\n{\n  /; s/ channel=/\"channel\":/; s/ start=/, \"start\":/; s/ stop=/, \"stop\":/; s/<title[^>]*>/, \"title\": \"/; s/<\/title>/\"/; s/\">/, \"title\": \"/g; s/\" \//\"/g; s/>.*//' \
+    | jq -Rs '[split("\n")[] | select(length > 10)] | map(fromjson?)' > "$EPG_JSON_FILE"
+else
+  echo "❌ EPG XML non disponibile."
+fi
 
 # Scrive file informativi separati
 echo "$(date '+%d %b %Y %H:%M')" > "$INFO_DIR/last_update.txt"
