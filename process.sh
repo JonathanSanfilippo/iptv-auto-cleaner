@@ -7,6 +7,13 @@ URLS_FILE="$REPO_DIR/urls.txt"
 
 mkdir -p "$SRC_DIR" "$DEST_DIR"
 
+# Definisci un file di mapping per associare i canali a logo e ID
+declare -A channel_mapping
+channel_mapping["Rai 1"]="https://i.imgur.com/CAx7yRm.png|Rai1.it"
+channel_mapping["Rai 2"]="https://i.imgur.com/YzR7JYA.png|Rai2.it"
+channel_mapping["Rai 3"]="https://i.imgur.com/8ZTkdjT.png|Rai3.it"
+# Aggiungi qui gli altri canali, nel formato "NomeCanale=Logo|ID"
+
 # Scarica le liste, confronta e salva se cambiate
 while read -r url; do
   [[ -z "$url" ]] && continue
@@ -34,12 +41,12 @@ fi
 # Pulisci output precedente
 rm -f "$DEST_DIR"/*.m3u
 
-# Parsing
+# Processa i file originali in ordine
+index=1
 for f in "$SRC_DIR"/*.m3u; do
-  fname=$(basename "$f")
-  outname="${fname%.*}"
-  echo "#EXTM3U" > "$DEST_DIR/$outname.m3u"
-  echo "#Ⓖ" >> "$DEST_DIR/$outname.m3u"
+  outname="lista${index}.m3u"
+  echo "#EXTM3U" > "$DEST_DIR/$outname"
+  echo "#Ⓖ" >> "$DEST_DIR/$outname"
 
   awk '
     BEGIN { RS="\r?\n"; FS="," }
@@ -54,10 +61,20 @@ for f in "$SRC_DIR"/*.m3u; do
       id = idA[1]
       group = groupA[1]
 
+      # Se il nome del canale è presente nel mapping, usalo
+      if (name in channel_mapping) {
+        split(channel_mapping[name], mapping, "|")
+        logo = mapping[1]
+        id = mapping[2]
+        name = name " "
+      }
+
       getline url
       if (name != "" && group != "") {
-        printf "#EXTINF:-1 tvg-name=\"%s Ⓖ\" tvg-logo=\"%s\" tvg-id=\"%s\" group-title=\"%s\",%s Ⓖ\n%s\n\n", name, logo, id, group, name, url
+        printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"%s\" group-title=\"%s\",%s\\n%s\\n\\n", name, logo, id, group, name, url
       }
     }
-  ' "$f" >> "$DEST_DIR/$outname.m3u"
+  ' "$f" >> "$DEST_DIR/$outname"
+
+  ((index++))
 done
