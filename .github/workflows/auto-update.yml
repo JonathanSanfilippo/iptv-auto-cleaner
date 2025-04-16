@@ -2,7 +2,7 @@ name: Auto M3U Updater
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # ogni 5 minuti
+    - cron: '*/30 * * * *'  # ogni 30 minuti
   workflow_dispatch:
 
 jobs:
