@@ -2,31 +2,31 @@ name: Auto M3U Updater
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '*/5 * * * *'  # ogni 5 minuti
   workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Install curl
         run: sudo apt-get install curl -y
 
-      - name: Run script
+      - name: Run M3U processing script
         run: |
           chmod +x process.sh
           ./process.sh
 
-            - name: Commit and push if needed
+      - name: Commit and push if needed
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add .
-          git diff --cached --quiet || git commit -m "Update M3U processed lists"
+          git diff --cached --quiet || echo "No changes" || exit 0
+          git commit -m "Update M3U processed lists"
           git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} HEAD:main
-
