@@ -37,4 +37,7 @@ done
 
 # Scrive un file con l'ultimo aggiornamento
 UPDATE_FILE="$REPO_DIR/lists/last_update.txt"
-echo "Ultimo aggiornamento liste: $(date '+%Y-%m-%d %H:%M:%S') by iptv-auto-cleaner" > "$UPDATE_FILE"
+echo "Last Update list: $(date '+%d-%m-%y %H:%M') by <a href="https://github.com/JonathanSanfilippo/iptv-auto-cleaner" target="_blank">
+  iptv-auto-cleaner
+</a>
+" > "$UPDATE_FILE"
