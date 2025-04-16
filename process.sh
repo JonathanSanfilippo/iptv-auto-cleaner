@@ -8,11 +8,11 @@ rm -f "$OUTPUT_FILE"
 echo "#EXTM3U" > "$OUTPUT_FILE"
 
 for file in "$COUNTRIES_DIR"/*.txt; do
-  country="$(basename "$file" .txt)"  # es: italy
+  country="$(basename "$file" .txt)"  # e.g., italy
 
   echo "Processing $country..."
 
-  > "/tmp/temp_$country.m3u"  # reset file temporaneo
+  > "/tmp/temp_$country.m3u"  # reset temporary file
 
   while read -r url; do
     [[ -z "$url" ]] && continue
@@ -31,15 +31,20 @@ for file in "$COUNTRIES_DIR"/*.txt; do
     if (name ~ /\[COLOR|\[B|\]/ || name == "") next
     getline url
     if (url ~ /^http/) {
-      gsub(/\s+$/, "", name)
-      printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n", name, logo, group, name, url >> output
+      # Check if the URL is reachable
+      cmd = "curl -Is --max-time 5 \"" url "\" | head -n 1"
+      cmd | getline status_line
+      close(cmd)
+      if (status_line ~ /^HTTP\/[0-9.]+ 2/) {
+        gsub(/\s+$/, "", name)
+        printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"%s\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n", name, logo, group, name, url >> output
+      }
     }
   }
 ' "/tmp/temp_$country.m3u"
 
-
   rm -f "/tmp/temp_$country.m3u"
 done
 
-# Timestamp globale
+# Global timestamp
 echo "Last update: $(date '+%H:%M')" > "$REPO_DIR/lists/last_update.txt"
