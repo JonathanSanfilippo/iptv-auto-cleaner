@@ -8,25 +8,29 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install curl
-        run: sudo apt-get install curl -y
+      - name: Ensure process.sh is executable
+        run: chmod +x process.sh
 
       - name: Run M3U processing script
-        run: |
-          chmod +x process.sh
-          ./process.sh
+        run: ./process.sh
 
-      - name: Commit and push if needed
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git diff --cached --quiet || echo "No changes" || exit 0
-          git commit -m "Update M3U processed lists"
-          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+          # Aggiunge solo i file modificati
+          git add -A
+          
+          # Controlla se ci sono modifiche prima di fare commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update M3U processed lists"
+            git push
+          fi
