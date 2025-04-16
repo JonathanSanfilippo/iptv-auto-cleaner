@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Necessario per usare git pull
 
       - name: Ensure process.sh is executable
         run: chmod +x process.sh
@@ -24,13 +26,12 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
 
-          # Aggiunge solo i file modificati
           git add -A
-          
-          # Controlla se ci sono modifiche prima di fare commit
+
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "Update M3U processed lists"
+            git pull --rebase
             git push
           fi
