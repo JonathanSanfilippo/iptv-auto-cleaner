@@ -1,1 +1,3 @@
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_italy.m3u8
+https://iptv-org.github.io/iptv/languages/ita.m3u
+https://raw.githubusercontent.com/JonathanSanfilippo/iptv-auto-cleaner/refs/heads/main/lists/altri.m3u
