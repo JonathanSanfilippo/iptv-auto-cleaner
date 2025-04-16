@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CHECK_STREAMS=true
-REPO_DIR="$(dirname "$(readlink -f "$0")")"
+REPO_DIR="$(dirname \"$(readlink -f \"$0\")\")"
 COUNTRIES_DIR="$REPO_DIR/lists/countries"
 ORIGINAL_DIR="$REPO_DIR/lists/original"
 INFO_DIR="$REPO_DIR/lists/info"
@@ -61,6 +61,9 @@ for file in "$COUNTRIES_DIR"/*.txt; do
 
   rm -f "$temp_file"
 done
+
+# OPTIONAL: to add TivùStream manually, download it separately and place it in the countries/ folder as italy-tivustream.txt or similar.
+# You can then add it to countries/italy.txt or another group file.
 
 # Scrive file informativi separati
 echo "$(date '+%d %b %Y %H:%M')" > "$INFO_DIR/last_update.txt"
