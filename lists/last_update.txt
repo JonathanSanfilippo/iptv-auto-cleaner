@@ -1,4 +1,4 @@
-Last update: 2025-04-16 17:00
-Total entries: 
-Valid channels: 
-Skipped channels: 
+Last update: 16 Apr 17:21
+Total entries: 473
+Valid channels: 283
+Skipped channels: 190
