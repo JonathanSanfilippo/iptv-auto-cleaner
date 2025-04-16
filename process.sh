@@ -2,25 +2,24 @@
 
 REPO_DIR="$(dirname "$(readlink -f "$0")")"
 COUNTRIES_DIR="$REPO_DIR/lists/countries"
-SRC_DIR="$REPO_DIR/lists/original"
-mkdir -p "$SRC_DIR"
-
-# Pulisce le vecchie liste
-rm -f "$SRC_DIR"/*.m3u
+OUTPUT_FILE="$REPO_DIR/lists/original/original.m3u"
+mkdir -p "$REPO_DIR/lists/original"
+rm -f "$OUTPUT_FILE"
+echo "#EXTM3U" > "$OUTPUT_FILE"
 
 for file in "$COUNTRIES_DIR"/*.txt; do
-  country_name="$(basename "$file" .txt)"          # es. italy
-  output_file="$SRC_DIR/$country_name.m3u"
-  echo "#EXTM3U" > "$output_file"
+  country="$(basename "$file" .txt)"  # es: italy
 
-  echo "Processing $country_name..."
+  echo "Processing $country..."
+
+  > "/tmp/temp_$country.m3u"  # reset file temporaneo
 
   while read -r url; do
     [[ -z "$url" ]] && continue
-    curl -s "$url" >> "/tmp/temp_$country_name.m3u"
+    curl -s "$url" >> "/tmp/temp_$country.m3u"
   done < "$file"
 
-  awk -v output="$output_file" -v group="$country_name" '
+  awk -v output="$OUTPUT_FILE" -v group="$country" '
     BEGIN { RS="\r?\n"; FS="," }
     /^#EXTINF/ {
       name = $2
@@ -31,10 +30,10 @@ for file in "$COUNTRIES_DIR"/*.txt; do
         printf "#EXTINF:-1 tvg-name=\"%s\" tvg-logo=\"https://img.icons8.com/office40/512/raspberry-pi.png\" tvg-id=\"\" group-title=\"%s\",%s\n%s\n\n", name, group, name, url >> output
       }
     }
-  ' "/tmp/temp_$country_name.m3u"
+  ' "/tmp/temp_$country.m3u"
 
-  rm -f "/tmp/temp_$country_name.m3u"
+  rm -f "/tmp/temp_$country.m3u"
 done
 
-# Scrive la data aggiornamento globale
-echo "Last playlist update: $(date '+%Y-%m-%d %H:%M')" > "$REPO_DIR/lists/last_update.txt"
+# Timestamp globale
+echo "Last update: $(date '+%H:%M')" > "$REPO_DIR/lists/last_update.txt"
