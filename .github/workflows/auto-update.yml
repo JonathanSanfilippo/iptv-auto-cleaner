@@ -1,0 +1,29 @@
+name: Auto M3U Updater
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install curl
+        run: sudo apt-get install curl -y
+
+      - name: Run script
+        run: |
+          chmod +x process.sh
+          ./process.sh
+
+      - name: Commit and push if needed
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Update M3U processed lists"
+          git push
