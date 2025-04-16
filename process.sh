@@ -64,7 +64,7 @@ for file in "$COUNTRIES_DIR"/*.txt; do
 done
 
 # Scarica e converte l'EPG Italia in JSON
-EPG_GZ_URL="https://www.epgitalia.tv/guide2"
+EPG_GZ_URL="https://iptv-org.github.io/epg/guides/it.xml.gz"
 EPG_XML_FILE="$INFO_DIR/epg.xml"
 echo "⬇️ Scaricando EPG XML..."
 curl -s "$EPG_GZ_URL" | gunzip -c > "$EPG_XML_FILE"
