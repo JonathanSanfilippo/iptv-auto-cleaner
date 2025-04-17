@@ -383,9 +383,6 @@ https://stmv1.srvif.com/animetv/animetv/playlist.m3u8
 #EXTINF:-1 tvg-name="Record News" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/c/c7/Logotipo_da_Record_News_%282016%29.png" tvg-id="" group-title="Brazil",Record News
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116
 
-#EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="" group-title="Brazil",ISTV
-https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
-
 #EXTINF:-1 tvg-name="Rede Brasil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Marca_rede_brasil_rgb-color.png" tvg-id="" group-title="Brazil",Rede Brasil
 https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/playlist.m3u8
 
@@ -823,12 +820,6 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="" group-title="Finland",Liv
-https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
-
-#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="" group-title="Finland",Jim
-https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
@@ -1634,9 +1625,6 @@ https://tsw.streamingwebtv24.it:1936/abchanneltv/abchanneltv/playlist.m3u8
 #EXTINF:-1 tvg-name="Alpauno" tvg-logo="https://i.imgur.com/4QKFtUa.png" tvg-id="" group-title="Italy",Alpauno
 https://5f22d76e220e1.streamlock.net/alpaunotv/alpaunotv/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Alto Adige Tv" tvg-logo="https://i.imgur.com/S2sCFQi.png" tvg-id="" group-title="Italy",Alto Adige Tv
-https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Antenna 2 Bergamo" tvg-logo="https://i.imgur.com/NfvHIAw.png" tvg-id="" group-title="Italy",Antenna 2 Bergamo
 https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8
 
@@ -2075,9 +2063,6 @@ https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8
 #EXTINF:-1 tvg-name="Sardegna 1" tvg-logo="https://i.imgur.com/YNEW2h2.png" tvg-id="" group-title="Italy",Sardegna 1
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/live/S30721796/ZS3Xu8mn5f0J/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="" group-title="Italy",Set Tv Cilento
-https://stream1.aswifi.it/settv/live/index.m3u8
-
 #EXTINF:-1 tvg-name="Sesta Rete" tvg-logo="https://i.imgur.com/0B0S2gI.png" tvg-id="" group-title="Italy",Sesta Rete
 https://stream10.xdevel.com/video0s977089-1792/stream/playlist.m3u8
 
@@ -2242,9 +2227,6 @@ https://64b16f23efbee.streamlock.net/telecitylombardia/telecitylombardia/playlis
 
 #EXTINF:-1 tvg-name="Telecity Piemonte" tvg-logo="https://i.imgur.com/CrlzHjv.jpeg" tvg-id="" group-title="Italy",Telecity Piemonte
 https://64b16f23efbee.streamlock.net/telecitypiemonte/telecitypiemonte/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Telecity Valle D'Aosta" tvg-logo="https://i.imgur.com/T9EsAOX.jpeg" tvg-id="" group-title="Italy",Telecity Valle D'Aosta
-https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8
 
 #EXTINF:-1 tvg-name="TeleCostaSmeralda" tvg-logo="https://i.imgur.com/QLqkbss.png" tvg-id="" group-title="Italy",TeleCostaSmeralda
 https://7e1cc2454f2242afabe05cc0a2f483cd.msvdn.net/tcs_live/tcs/tcs/playlist.m3u8
@@ -2434,9 +2416,6 @@ https://5e73cf528f404.streamlock.net/GR_sport/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Alma TV (576p)" tvg-logo="https://i.imgur.com/MfFOnJp.png" tvg-id="" group-title="Italy",Alma TV (576p)
 http://151.0.207.99:1935/AlmaTv/AlmaTv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Alto Adige TV (720p)" tvg-logo="https://i.imgur.com/yt7JJrn.png" tvg-id="" group-title="Italy",Alto Adige TV (720p)
-https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Antenna 2 TV (720p)" tvg-logo="https://i.imgur.com/kNrzk3X.png" tvg-id="" group-title="Italy",Antenna 2 TV (720p)
 https://58f12ffd2447a.streamlock.net/Antenna2/livestream/playlist.m3u8

@@ -38,6 +38,9 @@ http://94.250.2.6:7374/play/a02u/index.m3u8
 #EXTINF:-1 tvg-name="RBC" tvg-logo="https://portal.rbc1.com.br/public/portal/img/layout/logorbc.png" tvg-id="" group-title="Brazil",RBC
 http://rbc.directradios.com:1935/rbc/rbc/live.m3u8
 
+#EXTINF:-1 tvg-name="ISTV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/b/b5/Logotipo_da_ISTV.png" tvg-id="" group-title="Brazil",ISTV
+https://video08.logicahost.com.br/istvnacional/srt.stream/istvnacional.m3u8
+
 #EXTINF:-1 tvg-name="City TV Ⓢ" tvg-logo="https://i.imgur.com/BjRTbrU.png" tvg-id="" group-title="Bulgaria",City TV Ⓢ
 https://tv.city.bg/play/tshls/citytv/index.m3u8
 
@@ -128,6 +131,12 @@ https://stream.polar.cz/prahatv/prahatvlive-1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 2/Bornholm" tvg-logo="https://i.imgur.com/cEOpXU6.png" tvg-id="" group-title="Denmark",TV 2/Bornholm
 https://live.tv2bornholm.dk/stream/live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="" group-title="Finland",Hero
 https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
 
@@ -179,6 +188,9 @@ https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
+#EXTINF:-1 tvg-name="Alto Adige Tv" tvg-logo="https://i.imgur.com/S2sCFQi.png" tvg-id="" group-title="Italy",Alto Adige Tv
+https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
 
@@ -229,6 +241,9 @@ https://rst2.saiuzwebnetwork.it:8081/rdetrieste/index.m3u8
 
 #EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="" group-title="Italy",Roma Tv 82
 https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Set Tv Cilento" tvg-logo="https://i.imgur.com/qN5D1jD.png" tvg-id="" group-title="Italy",Set Tv Cilento
+https://stream1.aswifi.it/settv/live/index.m3u8
 
 #EXTINF:-1 tvg-name="Sicilia Tv" tvg-logo="https://i.imgur.com/I5FoThW.png" tvg-id="" group-title="Italy",Sicilia Tv
 https://stream9.xdevel.com/video0s976441-1226/stream/playlist.m3u8
@@ -293,6 +308,9 @@ https://59d7d6f47d7fc.streamlock.net/televenezia/televenezia/playlist.m3u8
 #EXTINF:-1 tvg-name="Tele Video Agrigento (T.V.A.)" tvg-logo="https://i.imgur.com/AaPr63E.png" tvg-id="" group-title="Italy",Tele Video Agrigento (T.V.A.)
 https://59d7d6f47d7fc.streamlock.net/tva/tva/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Telecity Valle D'Aosta" tvg-logo="https://i.imgur.com/T9EsAOX.jpeg" tvg-id="" group-title="Italy",Telecity Valle D'Aosta
+https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Teleiblea" tvg-logo="https://i.imgur.com/n1THygZ.png" tvg-id="" group-title="Italy",Teleiblea
 https://5f22d76e220e1.streamlock.net/teleiblea/teleiblea/playlist.m3u8
 
@@ -322,6 +340,9 @@ https://5db313b643fd8.streamlock.net/Vuemme/Vuemme/playlist.m3u8
 
 #EXTINF:-1 tvg-name="111 TV (720p)" tvg-logo="https://i.imgur.com/kVREx1Q.png" tvg-id="" group-title="Italy",111 TV (720p)
 https://5db313b643fd8.streamlock.net/111TV/111TV/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Alto Adige TV (720p)" tvg-logo="https://i.imgur.com/yt7JJrn.png" tvg-id="" group-title="Italy",Alto Adige TV (720p)
+https://5f204aff97bee.streamlock.net/AltoAdigeTV/livestream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Apulia Web TV (1080p)" tvg-logo="https://i.imgur.com/IALtpMt.png" tvg-id="" group-title="Italy",Apulia Web TV (1080p)
 https://cp1.server89.com:19360/apuliawebtv/apuliawebtv.m3u8
