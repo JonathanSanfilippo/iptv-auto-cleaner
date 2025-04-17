@@ -1,1 +1,2 @@
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlists/playlist_romania.m3u8
+https://iptv-org.github.io/iptv/countries/ro.m3u
