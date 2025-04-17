@@ -821,6 +821,12 @@ https://live-fi.tvkaista.net/sub/live.m3u8?src=freetv
 #EXTINF:-1 tvg-name="TV5 Finland" tvg-logo="https://i.imgur.com/MoukyGs.png" tvg-id="" group-title="Finland",TV5 Finland
 https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
 
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
+
 #EXTINF:-1 tvg-name="Kutonen" tvg-logo="https://i.imgur.com/4giVyxb.png" tvg-id="" group-title="Finland",Kutonen
 https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
 
@@ -838,6 +844,9 @@ https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Alfa Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/fi/9/93/IRR-TV-1.png" tvg-id="" group-title="Finland",Alfa Ⓢ
 https://irrtv2.digitacdn.net/live/ott/irrtv/playlist.m3u8?organizationId=229401409&suiteItemId=230439940
+
+#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="" group-title="Finland",TapahtumaTV Eveo
+https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="National Geographic Finland Ⓖ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" tvg-id="" group-title="Finland",National Geographic Finland Ⓖ
 https://live-fi.tvkaista.net/national-geographic/live.m3u8?src=freetv
@@ -1883,6 +1892,9 @@ https://dc3.telesveva.com:4433/news24.mp4
 #EXTINF:-1 tvg-name="Nuova TV Nazionale" tvg-logo="https://i.imgur.com/QWlRuXg.png" tvg-id="" group-title="Italy",Nuova TV Nazionale
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" tvg-id="" group-title="Italy",Nuvola Tv
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 
@@ -2590,6 +2602,9 @@ https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NTN (720p)" tvg-logo="https://i.imgur.com/AW5fJwa.png" tvg-id="" group-title="Italy",NTN (720p)
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Nuova TV 1 (1080p)" tvg-logo="https://i.imgur.com/zRu9WGh.png" tvg-id="" group-title="Italy",Nuova TV 1 (1080p)
+https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Onda TV (568p)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/9/99/Ondatv.jpg/512px-Ondatv.jpg" tvg-id="" group-title="Italy",Onda TV (568p)
 https://5926fc9c7c5b2.streamlock.net/9040/9040/chunklist_w1373908906.m3u8
