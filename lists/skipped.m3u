@@ -11,9 +11,6 @@ https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Apollon Ⓢ" tvg-logo="https://i.imgur.com/gUz2AjM.png" tvg-id="" group-title="Albania",TV Apollon Ⓢ
 https://live.apollon.tv/Apollon-WEB/video.m3u8?token=tnt3u76re30d2
 
-#EXTINF:-1 tvg-name="Vizion Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="" group-title="Albania",Vizion Plus
-https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
-
 #EXTINF:-1 tvg-name="FashionTV Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" tvg-id="" group-title="Albania",FashionTV Europe (1080p)
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
 
@@ -43,9 +40,6 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 
 #EXTINF:-1 tvg-name="Top News (720p)" tvg-logo="https://i.imgur.com/oKix35b.png" tvg-id="" group-title="Albania",Top News (720p)
 https://trueodin.serv00.net/?t=topnewsal
-
-#EXTINF:-1 tvg-name="Vizion Plus (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="" group-title="Albania",Vizion Plus (1080p)
-https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
 
 #EXTINF:-1 tvg-name="World Billiards (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png" tvg-id="" group-title="Albania",World Billiards (720p)
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
@@ -98,8 +92,8 @@ https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-name="Urbana Tevé" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQLeFMWMeoumi-o24ohLPXSEdNL5-oJ9W5oP5KnnA=s900-c-k-c0x00ffffff-no-rj" tvg-id="" group-title="Argentina",Urbana Tevé
 https://cdnhd.iblups.com/hls/DD3nXkAkWk.m3u8
 
-#EXTINF:-1 tvg-name="Alterna TV (720p)" tvg-logo="https://alternatv.ar/alternatv.png" tvg-id="" group-title="Argentina",Alterna TV (720p)
-https://alternatv.ar/stream/hls/live.m3u8
+#EXTINF:-1 tvg-name="America TV (480p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/512px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="" group-title="Argentina",America TV (480p)
+http://190.2.212.209:8050/play/a0pb
 
 #EXTINF:-1 tvg-name="Canal 5 Pico Truncado (540p)" tvg-logo="https://i.imgur.com/VwUiSVF.png" tvg-id="" group-title="Argentina",Canal 5 Pico Truncado (540p)
 https://stream.arcast.com.ar/canal5picotruncado/canal5picotruncado/playlist.m3u8
@@ -113,11 +107,11 @@ https://vivo.solumedia.com:19360/celta/celta.m3u8
 #EXTINF:-1 tvg-name="Kanade (1080p)" tvg-logo="https://static.kanade.cl/assets/img/profilepic_512px.png" tvg-id="" group-title="Argentina",Kanade (1080p)
 https://streaming-cl.sh1ny.space/memfs/0e41fc31-9f44-46d4-8712-0446e2f3dcaa.m3u8
 
-#EXTINF:-1 tvg-name="Litus TV (720p)" tvg-logo="https://i.imgur.com/QIGSf4L.png" tvg-id="" group-title="Argentina",Litus TV (720p)
-https://stream.arcast.com.ar/litustv/ngrp:litustv_all/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Pandamax Channel (1080p)" tvg-logo="https://pandamax.cl/assets/img/pandalogo2.png" tvg-id="" group-title="Argentina",Pandamax Channel (1080p)
 https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Argentina",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
 
 #EXTINF:-1 tvg-name="SEO TV 1 (1080p)" tvg-logo="https://i.imgur.com/aTcJ5p3.png" tvg-id="" group-title="Argentina",SEO TV 1 (1080p)
 https://seo.tv.bo/tv/SEOTV_1FHD.m3u8
@@ -139,6 +133,9 @@ https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telehit Musica (1080p)" tvg-logo="https://i.imgur.com/PfROac9.png" tvg-id="" group-title="Argentina",Telehit Musica (1080p)
 http://190.60.42.86:8000/play/a02x/index.m3u8
+
+#EXTINF:-1 tvg-name="Telemundo Internacional (480p)" tvg-logo="https://i.imgur.com/j2O4ndp.png" tvg-id="" group-title="Argentina",Telemundo Internacional (480p)
+http://190.2.212.209:8050/play/a0oa
 
 #EXTINF:-1 tvg-name="Tropical Moon Cumbia TV (720p)" tvg-logo="https://i.imgur.com/jL1kLyS.png" tvg-id="" group-title="Argentina",Tropical Moon Cumbia TV (720p)
 https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8
@@ -236,8 +233,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Austria",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Austria",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Austria",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Austria",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -296,9 +293,6 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 tvg-name="Zee One (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg" tvg-id="" group-title="Azerbaijan",Zee One (720p)
 https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Pervyy Muzykal'nyy BY Ⓢ" tvg-logo="https://i.imgur.com/7tFiG6S.jpg" tvg-id="" group-title="Belarus",Pervyy Muzykal'nyy BY Ⓢ
-http://rtmp.one.by:1200
-
 #EXTINF:-1 tvg-name="FashionTV Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" tvg-id="" group-title="Belarus",FashionTV Europe (1080p)
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
 
@@ -334,6 +328,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 
 #EXTINF:-1 tvg-name="Zee One (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg" tvg-id="" group-title="Belarus",Zee One (720p)
 https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Первый Музыкальный Канал Россия (576p)" tvg-logo="https://i.imgur.com/rEo7nR1.png" tvg-id="" group-title="Belarus",Первый Музыкальный Канал Россия (576p)
+http://rtmp.one.by:2200
 
 #EXTINF:-1 tvg-name="ATV (1080p)" tvg-logo="https://static.atv.be/atvbe/images/atv-logo.png" tvg-id="" group-title="Belgium",ATV (1080p)
 https://live.zendzend.com/streams/29375_107244/playlist.m3u8
@@ -383,8 +380,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Belgium",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Belgium",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Belgium",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Belgium",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -659,8 +656,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Bulgaria",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Bulgaria",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Bulgaria",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Bulgaria",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -809,6 +806,9 @@ https://scl.edge.grupoz.cl/movie/live/playlist.m3u8
 #EXTINF:-1 tvg-name="PlanetaTV Music (720p)" tvg-logo="https://i.imgur.com/wPeT7UL.png" tvg-id="" group-title="Chile",PlanetaTV Music (720p)
 https://scl.edge.grupoz.cl/music/live/music.m3u8
 
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Chile",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
+
 #EXTINF:-1 tvg-name="Retro Plus HD (720p)" tvg-logo="https://i.imgur.com/fkCasXI.png" tvg-id="" group-title="Chile",Retro Plus HD (720p)
 https://video06.logicahost.com.br/retroplustv/retroplustv/playlist.m3u8
 
@@ -845,6 +845,9 @@ https://unlimited1-cl-isp.dps.live/tctc/tctc.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Telehit Musica (1080p)" tvg-logo="https://i.imgur.com/PfROac9.png" tvg-id="" group-title="Chile",Telehit Musica (1080p)
 http://190.60.42.86:8000/play/a02x/index.m3u8
 
+#EXTINF:-1 tvg-name="Telemundo Internacional (480p)" tvg-logo="https://i.imgur.com/j2O4ndp.png" tvg-id="" group-title="Chile",Telemundo Internacional (480p)
+http://190.2.212.209:8050/play/a0oa
+
 #EXTINF:-1 tvg-name="Terranova Televisión (810p)" tvg-logo="https://i.imgur.com/xXRzGN1.png" tvg-id="" group-title="Chile",Terranova Televisión (810p)
 https://5ff3d9babae13.streamlock.net/gtryhpwpwe/gtryhpwpwe/playlist.m3u8
 
@@ -877,6 +880,9 @@ https://5cf4a2c2512a2.streamlock.net/8184/8184/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Wapp (1080p)" tvg-logo="https://i.imgur.com/Bv1yJ1d.png" tvg-id="" group-title="Chile",Wapp (1080p)
 https://mdstrm.com/live-stream-playlist/6046495ddf98b007fa2fe807.m3u8
+
+#EXTINF:-1 tvg-name="Zona Latina (480p)" tvg-logo="https://i.imgur.com/lMyZZtk.png" tvg-id="" group-title="Chile",Zona Latina (480p)
+http://190.2.212.209:8050/play/a0oj
 
 #EXTINF:-1 tvg-name="Zona Play TV (720p)" tvg-logo="https://i.imgur.com/GewcpHv.png" tvg-id="" group-title="Chile",Zona Play TV (720p)
 https://paneltv.online:1936/8100/8100/playlist.m3u8
@@ -916,6 +922,9 @@ https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Radio Puerto TV (720p)" tvg-logo="https://i.imgur.com/Qc3iBp5.png" tvg-id="" group-title="Costa_rica",Radio Puerto TV (720p)
 https://cloudvideo.servers10.com:8081/8256/index.m3u8
+
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Costa_rica",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
 
 #EXTINF:-1 tvg-name="Retrox TV (720p)" tvg-logo="https://i.imgur.com/viJBL6f.png" tvg-id="" group-title="Costa_rica",Retrox TV (720p)
 https://rpn3.bozztv.com/ssh101/ssh101/retroxtvhd/playlist.m3u8
@@ -1010,8 +1019,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Croatia",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Croatia",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Croatia",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Croatia",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -1085,8 +1094,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Cyprus",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Cyprus",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Cyprus",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Cyprus",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -1148,8 +1157,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Czech_republic",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Czech_republic",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Czech_republic",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Czech_republic",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -1205,8 +1214,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Denmark",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Denmark",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Denmark",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TV2/Østjylland (720p)" tvg-logo="https://i.imgur.com/qEUXjHp.png" tvg-id="" group-title="Denmark",TV2/Østjylland (720p)
 https://cdnapi.kaltura.com/p/2102081/sp/2102081/playManifest/entryId/0_x4p3licd/flavorIds/0_pcvatr5k,0_aezqkdsi,0_dkeq429y,0_99pivdxs/deliveryProfileId/10552/protocol/https/format/applehttp/a.m3u8
@@ -1238,6 +1247,9 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="ARROZ TV" tvg-logo="https://i.imgur.com/6sJGP4g.jpg" tvg-id="" group-title="Dominican_republic",ARROZ TV
 https://inliveserver.com:1936/11548/11548/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Bonches Latinos TV (720p)" tvg-logo="https://i.imgur.com/Kp8x0NS.png" tvg-id="" group-title="Dominican_republic",Bonches Latinos TV (720p)
+https://ss5.domint.net:3030/aba_str/bonche/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Canal Multivision (720p)" tvg-logo="https://i.imgur.com/puOrL7B.jpg" tvg-id="" group-title="Dominican_republic",Canal Multivision (720p)
 https://fl1002.bozztv.com/ssh101/canalmulti24/index.m3u8
 
@@ -1249,9 +1261,6 @@ https://rtmp-live-ingest-us-east-1-universe-dacast-com.akamaized.net/transmuxv1/
 
 #EXTINF:-1 tvg-name="Chinola TV (480p)" tvg-logo="https://i.imgur.com/ybud4dI.png" tvg-id="" group-title="Dominican_republic",Chinola TV (480p)
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
-
-#EXTINF:-1 tvg-name="Cibaeña TV (720p)" tvg-logo="https://i.imgur.com/iHjdckl.png" tvg-id="" group-title="Dominican_republic",Cibaeña TV (720p)
-https://streamunoapp.com:3958/live/cibaenatvlive.m3u8
 
 #EXTINF:-1 tvg-name="ConstanzaTV (720p)" tvg-logo="https://i.imgur.com/4uV90gw.png" tvg-id="" group-title="Dominican_republic",ConstanzaTV (720p)
 https://ssh101-fl.bozztv.com/ssh101/ctv8hd/index.m3u8
@@ -1283,11 +1292,11 @@ https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
 #EXTINF:-1 tvg-name="Pinpon TV (720p)" tvg-logo="https://i.imgur.com/J4Zr1ds.png" tvg-id="" group-title="Dominican_republic",Pinpon TV (720p)
 https://5790d294af2dc.streamlock.net/wtv43/wtv43/chunklist.m3u8
 
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Dominican_republic",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
+
 #EXTINF:-1 tvg-name="Resplandor TV (720p)" tvg-logo="https://i.imgur.com/PkDMero.png" tvg-id="" group-title="Dominican_republic",Resplandor TV (720p)
 https://ss2.domint.net:3100/rtv_str/rvision/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Ruta66 TV (720p)" tvg-logo="https://i.imgur.com/oY4Xfvq.png" tvg-id="" group-title="Dominican_republic",Ruta66 TV (720p)
-https://cnn.livestreaminggroup.info:3796/live/ruta66tvlive.m3u8
 
 #EXTINF:-1 tvg-name="Sensación TV (360p)" tvg-logo="https://domintapi.com/images/station/domint1563img07-28-20211627493874.jpeg" tvg-id="" group-title="Dominican_republic",Sensación TV (360p)
 https://ss5.domint.net:3002/stv_str/sensaciontv/playlist.m3u8
@@ -1427,8 +1436,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Estonia",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Estonia",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Estonia",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Estonia",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -1441,6 +1450,18 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 
 #EXTINF:-1 tvg-name="Zee One (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg" tvg-id="" group-title="Estonia",Zee One (720p)
 https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Liv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Liv_color_RGB.png" tvg-id="" group-title="Finland",Liv
+https://live-fi.tvkaista.net/liv/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Jim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Jim_color_RGB.png" tvg-id="" group-title="Finland",Jim
+https://live-fi.tvkaista.net/jim/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="Hero" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bd/Hero_color_RGB.png" tvg-id="" group-title="Finland",Hero
+https://live-fi.tvkaista.net/hero/live.m3u8?src=freetv
+
+#EXTINF:-1 tvg-name="TapahtumaTV Eveo" tvg-logo="https://i.imgur.com/sR8nA8w.png" tvg-id="" group-title="Finland",TapahtumaTV Eveo
+https://live-fi.tvkaista.net/tapahtumatv-eveo/live.m3u8?src=freetv
 
 #EXTINF:-1 tvg-name="Bigtime (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg" tvg-id="" group-title="Finland",Bigtime (720p)
 https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/playlist.m3u8
@@ -1459,6 +1480,12 @@ https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/
 
 #EXTINF:-1 tvg-name="Hard Knocks Fighting Championship (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/13b0a6c7-4307-4c8d-9fc4-df2a4f8e8b38-hard-knocks-fighting-1602077398-width200-quality90.jpeg" tvg-id="" group-title="Finland",Hard Knocks Fighting Championship (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/2ee2b8d4-acc4-4296-9dc8-66f1ffd0fff8/5.m3u8
+
+#EXTINF:-1 tvg-name="Jim (720p)" tvg-logo="https://i.imgur.com/PkMgY0K.png" tvg-id="" group-title="Finland",Jim (720p)
+https://live-fi.tvkaista.net/jim/live.m3u8?hd=true
+
+#EXTINF:-1 tvg-name="Liv (720p)" tvg-logo="https://i.imgur.com/k6NsXBj.png" tvg-id="" group-title="Finland",Liv (720p)
+https://live-fi.tvkaista.net/liv/live.m3u8?hd=true
 
 #EXTINF:-1 tvg-name="Moconomy (1080p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/9da0ec4d-85ea-45f4-b3f9-ae917d1714f9-width200-quality90.jpeg" tvg-id="" group-title="Finland",Moconomy (1080p)
 https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_Moconomy/playlist.m3u8
@@ -1481,8 +1508,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Finland",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Finland",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Finland",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Finland",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -1571,8 +1598,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="France",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="France",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="France",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TV7 Bordeaux (720p)" tvg-logo="https://i.imgur.com/lJdlu2r.png" tvg-id="" group-title="France",TV7 Bordeaux (720p)
 https://live.digiteka.com/1/RVNZMmJtUURmd09I/U0dNU0tk/hls/live/playlist.m3u8
@@ -1670,8 +1697,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="France",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="France",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="France",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TV7 Bordeaux (720p)" tvg-logo="https://i.imgur.com/lJdlu2r.png" tvg-id="" group-title="France",TV7 Bordeaux (720p)
 https://live.digiteka.com/1/RVNZMmJtUURmd09I/U0dNU0tk/hls/live/playlist.m3u8
@@ -1787,8 +1814,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Germany",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Germany",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Germany",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TV Mittelrhein (720p)" tvg-logo="https://i.imgur.com/3Zic2AR.png" tvg-id="" group-title="Germany",TV Mittelrhein (720p)
 https://live2.telvi.de/hls/tvm_hd720.m3u8
@@ -1865,8 +1892,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Germany",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Germany",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Germany",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TV Mittelrhein (720p)" tvg-logo="https://i.imgur.com/3Zic2AR.png" tvg-id="" group-title="Germany",TV Mittelrhein (720p)
 https://live2.telvi.de/hls/tvm_hd720.m3u8
@@ -1973,8 +2000,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Greece",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Greece",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Greece",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TRT (360p)" tvg-logo="https://i.imgur.com/g0jPOcC.png" tvg-id="" group-title="Greece",TRT (360p)
 https://www.hellasnet.tv/rest2.live.hn/u2r.trt/playlist.m3u8
@@ -2024,12 +2051,6 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83da
 #EXTINF:-1 tvg-name="City TV (576p)" tvg-logo="https://i.imgur.com/u0AKhzj.png" tvg-id="" group-title="Hungary",City TV (576p)
 https://citytv.hu/media/live/stream.m3u8
 
-#EXTINF:-1 tvg-name="Csurgó TV (720p)" tvg-logo="https://i.imgur.com/vVOEYuj.png" tvg-id="" group-title="Hungary",Csurgó TV (720p)
-http://79.120.178.90:1935/csurgotv/csurgolive/playlist.m3u8
-
-#EXTINF:-1 tvg-name="DSTV (720p)" tvg-logo="https://i.imgur.com/xKJoN8L.png" tvg-id="" group-title="Hungary",DSTV (720p)
-http://79.120.178.90:1935/dstv/dstvlive/playlist.m3u8
-
 #EXTINF:-1 tvg-name="FashionTV Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" tvg-id="" group-title="Hungary",FashionTV Europe (1080p)
 https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8
 
@@ -2038,9 +2059,6 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 #EXTINF:-1 tvg-name="Főnix TV (576p)" tvg-logo="https://i.ibb.co/ZMRpGqY/6171.png" tvg-id="" group-title="Hungary",Főnix TV (576p)
 https://stream.streaming4u.hu/FonixTV/index.fmp4.m3u8
-
-#EXTINF:-1 tvg-name="Gran TV (720p)" tvg-logo="https://i.ibb.co/qJN7Qh2/gran-kicsi.png" tvg-id="" group-title="Hungary",Gran TV (720p)
-https://stream.medialive.hu/gran/grantvlive/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Grjngo (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/22c730ab-2e9f-47dc-b35a-ad8c081fec40-width200-quality90.jpeg" tvg-id="" group-title="Hungary",Grjngo (720p)
 https://b6c7c7d1020a4588982ca7c2625f85d1.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_GrjngoWesterny/playlist.m3u8
@@ -2066,23 +2084,17 @@ https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="" group-title="Hungary",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Soltvadkerti Televízió (720p)" tvg-logo="https://i.imgur.com/ihdk45P.png" tvg-id="" group-title="Hungary",Soltvadkerti Televízió (720p)
-http://79.120.178.90:1935/soltvadkerttv/soltvlive/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TGRT Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" tvg-id="" group-title="Hungary",TGRT Europe (1080p)
 https://canli.tgrteu.com/tgrteu.m3u8
 
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Hungary",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Hungary",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Hungary",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Hungary",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Williams TV (480p)" tvg-logo="https://i.imgur.com/vysX07C.png" tvg-id="" group-title="Hungary",Williams TV (480p)
-http://79.120.178.90:1935/williams/williamstv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="World Billiards (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png" tvg-id="" group-title="Hungary",World Billiards (720p)
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
@@ -2246,9 +2258,6 @@ https://liveboxvideoconference.livebox.co.in/PowersmartMediahls/powertvlive.m3u8
 #EXTINF:-1 tvg-name="Pratham Khabar 24x7 (576p)" tvg-logo="https://i.imgur.com/HNsg5Px.png" tvg-id="" group-title="India",Pratham Khabar 24x7 (576p)
 https://livelegitpro.in/hls2/newstime/index.m3u8
 
-#EXTINF:-1 tvg-name="Prudent Media (1080p)" tvg-logo="https://i.imgur.com/DG0x4UD.png" tvg-id="" group-title="India",Prudent Media (1080p)
-https://prudentmcdn.rixcast.com/prudentm.m3u8
-
 #EXTINF:-1 tvg-name="PTC Chakde (720p)" tvg-logo="https://i.imgur.com/4lUwdME.png" tvg-id="" group-title="India",PTC Chakde (720p)
 https://streaming.ptcplay.com/ptcchakdeINONE/smil:Live.smil/playlist.m3u8
 
@@ -2312,26 +2321,11 @@ https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8
 #EXTINF:-1 tvg-name="Rodja TV (720p)" tvg-logo="https://i.imgur.com/XwCeHlC.png" tvg-id="" group-title="Indonesia",Rodja TV (720p)
 https://rodjatv.com/rodjatv/live.m3u8
 
-#EXTINF:-1 tvg-name="Semarang TV (720p)" tvg-logo="https://i.imgur.com/KFC2WSB.png" tvg-id="" group-title="Indonesia",Semarang TV (720p)
-http://116.254.112.74/hls/cakralive.m3u8
-
 #EXTINF:-1 tvg-name="Tegar TV Jogja (720p)" tvg-logo="https://i.imgur.com/XamnylQ.png" tvg-id="" group-title="Indonesia",Tegar TV Jogja (720p)
 http://wms.klikhost.com/tegarjogja/tegarjogja/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Abadan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png" tvg-id="" group-title="Iran",Abadan
-https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8
-
-#EXTINF:-1 tvg-name="Aflak" tvg-logo="https://i.imgur.com/LkLCHpf.png" tvg-id="" group-title="Iran",Aflak
-https://lenz.splus.ir/PLTV/88888888/224/3221226675/index.m3u8
-
-#EXTINF:-1 tvg-name="Azerbaijan Gharbi" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/250px-Urmia_TV.svg.png" tvg-id="" group-title="Iran",Azerbaijan Gharbi
-https://lenz.splus.ir/PLTV/88888888/224/3221226800/index.m3u8
-
-#EXTINF:-1 tvg-name="Fars" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/7/7b/Iribfars.png" tvg-id="" group-title="Iran",Fars
-https://lenz.splus.ir/PLTV/88888888/224/3221226701/index.m3u8
-
-#EXTINF:-1 tvg-name="IRIB3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/320px-IRIB_TV3_LOGO.svg.png" tvg-id="" group-title="Iran",IRIB3
-https://lenz.splus.ir/PLTV/88888888/224/3221226868/index.m3u8
+#EXTINF:-1 tvg-name="IRIB1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/289px-IRIBTV1.svg.png" tvg-id="" group-title="Iran",IRIB1
+https://lenz.splus.ir/PLTV/88888888/224/3221226637/index.m3u8
 
 #EXTINF:-1 tvg-name="IRINN" tvg-logo="https://i.imgur.com/8tzsC9h.png" tvg-id="" group-title="Iran",IRINN
 https://lenz.splus.ir/PLTV/88888888/224/3221226142/index.m3u8
@@ -2339,17 +2333,8 @@ https://lenz.splus.ir/PLTV/88888888/224/3221226142/index.m3u8
 #EXTINF:-1 tvg-name="Isfahan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IsfahanTV.svg/242px-IsfahanTV.svg.png" tvg-id="" group-title="Iran",Isfahan
 https://lenz.splus.ir/PLTV/88888888/224/3221226652/index.m3u8
 
-#EXTINF:-1 tvg-name="JameJam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/51/Jjtvlogo1401.png" tvg-id="" group-title="Iran",JameJam
-https://lenz.splus.ir/PLTV/88888888/224/3221226178/index.m3u8
-
-#EXTINF:-1 tvg-name="Nasim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/320px-Nasim_TV_logo.svg.png" tvg-id="" group-title="Iran",Nasim
-https://lenz.splus.ir/PLTV/88888888/224/3221226653/index.m3u8
-
-#EXTINF:-1 tvg-name="Omid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/512px-IRIB_Omid.svg.png" tvg-id="" group-title="Iran",Omid
-https://lenz.splus.ir/PLTV/88888888/224/3221226159/index.m3u8
-
-#EXTINF:-1 tvg-name="Pooya & Nahal" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png" tvg-id="" group-title="Iran",Pooya & Nahal
-https://lenz.splus.ir/PLTV/88888888/224/3221226145/index.m3u8
+#EXTINF:-1 tvg-name="Sahand" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/320px-Tabriz_Sahand.svg.png" tvg-id="" group-title="Iran",Sahand
+https://lenz.splus.ir/PLTV/88888888/224/3221226423/index.m3u8
 
 #EXTINF:-1 tvg-name="Tamasha" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/240px-IRIB_tamashaTV.svg.png" tvg-id="" group-title="Iran",Tamasha
 https://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8
@@ -2365,12 +2350,6 @@ https://media1.livaat.com/AL-RASHEED-HD/tracks-v1a1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Turkmeneli TV" tvg-logo="https://i.imgur.com/iUhhg4B.png" tvg-id="" group-title="Iraq",Turkmeneli TV
 https://137840.global.ssl.fastly.net/edge/live_6b7c6e205afb11ebb010f5a331abaf98/playlist.m3u8
-
-#EXTINF:-1 tvg-name="Al Hayat TV (720p)" tvg-logo="https://i.imgur.com/M8ZuzeB.png" tvg-id="" group-title="Iraq",Al Hayat TV (720p)
-http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-name="KurdMax Sorani (1080p)" tvg-logo="https://i.imgur.com/JkK8HG8.png" tvg-id="" group-title="Iraq",KurdMax Sorani (1080p)
-https://6476e46b58f91.streamlock.net/liveTrans/KurdmaxS0rani!/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Kurdsat News (1080p)" tvg-logo="https://i.imgur.com/F3XRwkt.png" tvg-id="" group-title="Iraq",Kurdsat News (1080p)
 https://kurdsat-news.akamaized.net/hls/kurdsat-news.m3u8
@@ -2414,8 +2393,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Ireland",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Ireland",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Ireland",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Ireland",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -2450,14 +2429,14 @@ https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="Abc Tv" tvg-logo="https://i.imgur.com/nVmIeTD.png" tvg-id="" group-title="Italy",Abc Tv
 https://diretta.arcapuglia.it:8080/live/abctv/index.m3u8
 
-#EXTINF:-1 tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" tvg-id="" group-title="Italy",Aristanis SuperTv
-https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Basilicata 1 Tv" tvg-logo="https://i.imgur.com/VS6CQ88.png" tvg-id="" group-title="Italy",Basilicata 1 Tv
 http://77.68.40.210:8888/hls/basilicata1.m3u8
 
 #EXTINF:-1 tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" tvg-id="" group-title="Italy",Calabria tv
 https://64b16f23efbee.streamlock.net/calabriatv-clone/calabriatv-clone/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" tvg-id="" group-title="Italy",Castrovillari Tv
+http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Donna Shopping Tv" tvg-logo="https://i.imgur.com/oLDvx2T.png" tvg-id="" group-title="Italy",Donna Shopping Tv
 https://5f22d76e220e1.streamlock.net/fascinotv/fascinotv/playlist.m3u8
@@ -2473,6 +2452,9 @@ https://5f22d76e220e1.streamlock.net/GrandeItalia/GrandeItalia/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Medjugorje Tv Puglia" tvg-logo="https://i.imgur.com/IWBeddh.png" tvg-id="" group-title="Italy",Medjugorje Tv Puglia
 https://diretta.arcapuglia.it:8080/live/medjugorietv/index.m3u8
+
+#EXTINF:-1 tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" tvg-id="" group-title="Italy",Nuova Tv 1
+https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuova Tv 2" tvg-logo="https://i.imgur.com/0vauyV3.png" tvg-id="" group-title="Italy",Nuova Tv 2
 https://nuovatv.net:8443/tv2/stream.m3u8
@@ -2494,9 +2476,6 @@ https://5f22d76e220e1.streamlock.net/RanFriul/RanFriul/playlist.m3u8
 
 #EXTINF:-1 tvg-name="RDE Tv" tvg-logo="https://i.imgur.com/NiwPlrr.png" tvg-id="" group-title="Italy",RDE Tv
 https://rst2.saiuzwebnetwork.it:8081/rdetrieste/index.m3u8
-
-#EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-id="" group-title="Italy",Rete 8 Sport
-https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Roma Tv 82" tvg-logo="https://i.imgur.com/C3UnlFF.png" tvg-id="" group-title="Italy",Roma Tv 82
 https://streaming.softwarecreation.it/RomaCH71/RomaCH71/playlist.m3u8
@@ -2638,6 +2617,9 @@ http://wms.shared.streamshow.it/lucaniatv/lucaniatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NewSignal (1080p)" tvg-logo="https://i.imgur.com/UnZoS95.png" tvg-id="" group-title="Italy",NewSignal (1080p)
 https://5f22d76e220e1.streamlock.net/NewSignalTV/NewSignalTV/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Nuova TV 1 (1080p)" tvg-logo="https://i.imgur.com/zRu9WGh.png" tvg-id="" group-title="Italy",Nuova TV 1 (1080p)
+https://nuovatv.net:8443/tv/stream.m3u8
 
 #EXTINF:-1 tvg-name="Nuova TV 2 (1080p)" tvg-logo="https://i.imgur.com/zRu9WGh.png" tvg-id="" group-title="Italy",Nuova TV 2 (1080p)
 https://nuovatv.net:8443/tv2/stream.m3u8
@@ -2894,6 +2876,9 @@ https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="NewSignal (1080p)" tvg-logo="https://i.imgur.com/UnZoS95.png" tvg-id="" group-title="Italy",NewSignal (1080p)
 https://5f22d76e220e1.streamlock.net/NewSignalTV/NewSignalTV/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Nuova TV 1 (1080p)" tvg-logo="https://i.imgur.com/zRu9WGh.png" tvg-id="" group-title="Italy",Nuova TV 1 (1080p)
+https://nuovatv.net:8443/tv/stream.m3u8
+
 #EXTINF:-1 tvg-name="Nuova TV 2 (1080p)" tvg-logo="https://i.imgur.com/zRu9WGh.png" tvg-id="" group-title="Italy",Nuova TV 2 (1080p)
 https://nuovatv.net:8443/tv2/stream.m3u8
 
@@ -2981,8 +2966,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Italy",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Italy",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Italy",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TT2 Teletutto (720p)" tvg-logo="https://i.imgur.com/85BolCh.png" tvg-id="" group-title="Italy",TT2 Teletutto (720p)
 https://600f07e114306.streamlock.net/TT2_TELETUTTO/livestream/playlist.m3u8
@@ -3323,6 +3308,9 @@ http://ye23.vip/z7z8/2021/kbs2020.php?id=8
 #EXTINF:-1 tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png" tvg-id="" group-title="Korea",KBS World
 http://ye23.vip/z7z8/2021/kbs2020.php?id=3
 
+#EXTINF:-1 tvg-name="TV Prizreni" tvg-logo="https://i.imgur.com/hvtJwOO.png" tvg-id="" group-title="Kosovo",TV Prizreni
+https://gjirafa-video-live.gjirafa.net/gjvideo-live/5m0-cok-g5z-1xi/index.m3u8
+
 #EXTINF:-1 tvg-name="Bigtime (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg" tvg-id="" group-title="Latvia",Bigtime (720p)
 https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/playlist.m3u8
 
@@ -3362,8 +3350,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Latvia",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Latvia",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Latvia",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Latvia",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -3419,8 +3407,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Lithuania",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Lithuania",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Lithuania",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Lithuania",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -3476,8 +3464,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Luxembourg",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Luxembourg",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Luxembourg",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Luxembourg",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -3533,8 +3521,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Malta",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Malta",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Malta",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Malta",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -3551,6 +3539,9 @@ https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="RCG 3 Saltillo" tvg-logo="https://i.imgur.com/NefH5qZ.png" tvg-id="" group-title="Mexico",RCG 3 Saltillo
 http://wowzacontrol.com:1936/stream56/stream56/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Canal 10 Durango" tvg-logo="https://i.imgur.com/H34quHQ.png" tvg-id="" group-title="Mexico",Canal 10 Durango
+https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Eclipse TV (720p)" tvg-logo="https://i.imgur.com/GiDD8xG.jpg" tvg-id="" group-title="Mexico",Eclipse TV (720p)
 https://5caf24a595d94.streamlock.net:1937/djkuxtvfah/djkuxtvfah/playlist.m3u8
 
@@ -3565,6 +3556,9 @@ https://s.emisoras.tv:8081/olagruperamx/index.m3u8
 
 #EXTINF:-1 tvg-name="Pandamax Channel (1080p)" tvg-logo="https://pandamax.cl/assets/img/pandalogo2.png" tvg-id="" group-title="Mexico",Pandamax Channel (1080p)
 https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Mexico",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
 
 #EXTINF:-1 tvg-name="RTG (720p)" tvg-logo="https://i.imgur.com/k9M2MOT.png" tvg-id="" group-title="Mexico",RTG (720p)
 https://5e50264bd6766.streamlock.net/rtg/videortg/playlist.m3u8
@@ -3800,8 +3794,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Netherlands",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Netherlands",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Netherlands",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Netherlands",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -3926,6 +3920,9 @@ https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio San Roque FM 87.5 (480p)" tvg-logo="https://i.imgur.com/DjCaZna.jpg" tvg-id="" group-title="Paraguay",Radio San Roque FM 87.5 (480p)
 https://rpn3.bozztv.com/ssh101/ssh101/sanroquearegua/playlist.m3u8
 
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Paraguay",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
+
 #EXTINF:-1 tvg-name="Red Digital (900p)" tvg-logo="https://i.imgur.com/3jj0MQP.jpg" tvg-id="" group-title="Paraguay",Red Digital (900p)
 https://ssh101-fl.bozztv.com/ssh101/reddigital/index.m3u8
 
@@ -3952,6 +3949,9 @@ https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Telehit Musica (1080p)" tvg-logo="https://i.imgur.com/PfROac9.png" tvg-id="" group-title="Paraguay",Telehit Musica (1080p)
 http://190.60.42.86:8000/play/a02x/index.m3u8
+
+#EXTINF:-1 tvg-name="Telemundo Internacional (480p)" tvg-logo="https://i.imgur.com/j2O4ndp.png" tvg-id="" group-title="Paraguay",Telemundo Internacional (480p)
+http://190.2.212.209:8050/play/a0oa
 
 #EXTINF:-1 tvg-name="Tropical Moon Cumbia TV (720p)" tvg-logo="https://i.imgur.com/jL1kLyS.png" tvg-id="" group-title="Paraguay",Tropical Moon Cumbia TV (720p)
 https://srv2.tropicalmoonmedia.com/cumbiatv/cumbiatv/playlist.m3u8
@@ -4001,6 +4001,12 @@ https://streaming-cl.sh1ny.space/memfs/0e41fc31-9f44-46d4-8712-0446e2f3dcaa.m3u8
 #EXTINF:-1 tvg-name="La Abeja" tvg-logo="https://i.imgur.com/KMze5qN.png" tvg-id="" group-title="Peru",La Abeja
 https://cdnhd.iblups.com/hls/F87ppt1YAT.m3u8
 
+#EXTINF:-1 tvg-name="Panamericana TV (480p)" tvg-logo="https://i.imgur.com/uQhEDES.png" tvg-id="" group-title="Peru",Panamericana TV (480p)
+http://190.2.212.209:8050/play/a0p5
+
+#EXTINF:-1 tvg-name="Panc TV Peru (1080p)" tvg-logo="https://play-lh.googleusercontent.com/-FVhaeUjvONL49NYdVMchoLXU421387791mp8zZ15JFic_kPyb3vULf86ffIr-NeOg" tvg-id="" group-title="Peru",Panc TV Peru (1080p)
+https://panel.host-live.com:19360/20000/20000.m3u8
+
 #EXTINF:-1 tvg-name="Pandamax Channel (1080p)" tvg-logo="https://pandamax.cl/assets/img/pandalogo2.png" tvg-id="" group-title="Peru",Pandamax Channel (1080p)
 https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
 
@@ -4013,8 +4019,8 @@ https://gnstreammedia.com:19360/4000/4000.m3u8
 #EXTINF:-1 tvg-name="Radio El Pueblo (480p)" tvg-logo="https://i.imgur.com/Up1u4TH.png" tvg-id="" group-title="Peru",Radio El Pueblo (480p)
 https://tv.mediacp.eu:8081/radioelpueblo/index.m3u8
 
-#EXTINF:-1 tvg-name="Radio Onda Digital" tvg-logo="https://i.imgur.com/Lid5RTv.png" tvg-id="" group-title="Peru",Radio Onda Digital
-https://v4.tustreaming.cl/radioondadigitaltv/index.m3u8
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Peru",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
 
 #EXTINF:-1 tvg-name="Retro Plus HD (720p)" tvg-logo="https://i.imgur.com/fkCasXI.png" tvg-id="" group-title="Peru",Retro Plus HD (720p)
 https://video06.logicahost.com.br/retroplustv/retroplustv/playlist.m3u8
@@ -4058,17 +4064,20 @@ https://srv.tropicalmoonmedia.com/urbantvnetott/urbantvnetott/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Palmeras (1080p)" tvg-logo="https://i.imgur.com/1uRjeT8.png" tvg-id="" group-title="Peru",TV Palmeras (1080p)
 https://video.ingenioperu.com:3982/live/palmerastvlive.m3u8
 
+#EXTINF:-1 tvg-name="TV Peru (480p)" tvg-logo="https://i.imgur.com/6io0IrX.png" tvg-id="" group-title="Peru",TV Peru (480p)
+http://190.2.212.209:8050/play/a0p8
+
 #EXTINF:-1 tvg-name="Vamisa TV (480p)" tvg-logo="https://i.imgur.com/qaR3aqn.png" tvg-id="" group-title="Peru",Vamisa TV (480p)
 https://inliveserver.com:1936/10044/10044/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Willax TV (480p)" tvg-logo="https://i.imgur.com/bZnDDPH.png" tvg-id="" group-title="Peru",Willax TV (480p)
+http://190.2.212.209:8050/play/a0p1
 
 #EXTINF:-1 tvg-name="Bigtime (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/1fe37ff8-c6b7-4123-8c68-653d657b4c5f-width200-quality90.jpeg" tvg-id="" group-title="Poland",Bigtime (720p)
 https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/master/0fb304b2320b25f067414d481a779b77db81760d/RakutenTV-eu_BjgtjmeDarmoweFilmy/playlist.m3u8
 
 #EXTINF:-1 tvg-name="Car City Adventures (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/bd356b80-79d9-46ff-9674-e69aaf10022f-width200-quality90.jpeg" tvg-id="" group-title="Poland",Car City Adventures (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/b6397b24-18b0-49c2-80bf-0333ae568e37/5.m3u8
-
-#EXTINF:-1 tvg-name="Eleven Sports 1 (2160p)" tvg-logo="https://i.imgur.com/AOu4FXH.png" tvg-id="" group-title="Poland",Eleven Sports 1 (2160p)
-http://9b129915.akadatel.com/iptv/83GA6FAV4DPTPQ/20068/index.m3u8
 
 #EXTINF:-1 tvg-name="Euronews (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/bc84c3b7-6008-4ee3-8f6a-e4bb4365f082-width200-quality90.jpeg" tvg-id="" group-title="Poland",Euronews (720p)
 https://euronews-live-pol-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6769/bitok/eyJzdGlkIjoiNDgyYjMzYzEtYmYwYi00NTIzLThlMGMtZGZmY2ZkNjYyMGU1IiwibWt0IjoicGwiLCJjaCI6Njc2OSwicHRmIjo1fQ%3D%3D/26235/euronews-pl.m3u8
@@ -4112,8 +4121,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Poland",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Poland",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Poland",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Poland",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -4178,8 +4187,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Portugal",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Portugal",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Portugal",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Portugal",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -4253,8 +4262,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Romania",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Romania",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Romania",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Romania",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -4316,8 +4325,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Romania",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Romania",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Romania",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Romania",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -4457,6 +4466,9 @@ https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae0
 #EXTINF:-1 tvg-name="Zee One (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/b2b4d09d-3471-4dbf-a831-3191cfc66bec-width200-quality90.jpeg" tvg-id="" group-title="San_marino",Zee One (720p)
 https://89ec2d15e090480bb419d940b8793b9c.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_ZeeWorld-1/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Al Hayat TV (720p)" tvg-logo="https://i.imgur.com/M8ZuzeB.png" tvg-id="" group-title="Saudi_arabia",Al Hayat TV (720p)
+http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Al Resalah (1080p)" tvg-logo="https://i.imgur.com/7o4HgrP.png" tvg-id="" group-title="Saudi_arabia",Al Resalah (1080p)
 https://rotana.hibridcdn.net/rotana/risala_net-7Y83PP5adWixDF93/playlist.m3u8
 
@@ -4562,17 +4574,14 @@ https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:-1 tvg-name="Revry (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/ddf3b88d-ef92-4a57-b234-36ff7c1cea2e-width200-quality90.jpeg" tvg-id="" group-title="Slovakia",Revry (720p)
 https://99d8b4b6.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1JldnJ5X0hMUw/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Televízia Močenok (720p)" tvg-logo="https://i.imgur.com/psb8GxZ.png" tvg-id="" group-title="Slovakia",Televízia Močenok (720p)
-https://5ca49f2417d90.streamlock.net/mocenok/livestream/playlist.m3u8
-
 #EXTINF:-1 tvg-name="TGRT Europe (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/TGRT_EU.png/512px-TGRT_EU.png" tvg-id="" group-title="Slovakia",TGRT Europe (1080p)
 https://canli.tgrteu.com/tgrteu.m3u8
 
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Slovakia",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Slovakia",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Slovakia",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="TV Brezová (540p)" tvg-logo="https://i.imgur.com/59LpYoF.png" tvg-id="" group-title="Slovakia",TV Brezová (540p)
 http://95.105.193.219:88/hls/tvb.m3u8
@@ -4649,8 +4658,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Slovenia",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Slovenia",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Slovenia",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Slovenia",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -4742,9 +4751,6 @@ https://3ee905090d464be5a51478fd9c642e93.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1 tvg-name="Monster Jam (720p)" tvg-logo="https://images-1.rakuten.tv/storage/global-live-channel/translation/artwork/0734ee9d-7417-4f53-a092-e29d6e8146ee-width200-quality90.jpeg" tvg-id="" group-title="Spain",Monster Jam (720p)
 https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8
 
-#EXTINF:-1 tvg-name="Onda Cádiz 24h (720p)" tvg-logo="https://i.imgur.com/sOBMnby.png" tvg-id="" group-title="Spain",Onda Cádiz 24h (720p)
-https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
-
 #EXTINF:-1 tvg-name="People Are Awesome (720p)" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/1cc9ab7e-8283-4c32-a3f3-e2a4d0e1d33f-width200-quality90.jpeg" tvg-id="" group-title="Spain",People Are Awesome (720p)
 https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8
 
@@ -4775,8 +4781,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Spain",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Spain",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Spain",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Torrevisión (270p)" tvg-logo="https://i.imgur.com/3Kb01OO.png" tvg-id="" group-title="Spain",Torrevisión (270p)
 https://api.new.livestream.com/accounts/2614936/events/10365077/live.m3u8
@@ -4859,8 +4865,8 @@ https://canli.tgrteu.com/tgrteu.m3u8
 #EXTINF:-1 tvg-name="TNA Wrestling Channel (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/11e7c52e-a7fd-48f3-b4c4-9f25dd37c36b-width200-quality90.jpeg" tvg-id="" group-title="Sweden",TNA Wrestling Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 
-#EXTINF:-1 tvg-name="Top Movies Polska (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Sweden",Top Movies Polska (720p)
-https://d14678b7277b4f21964f367309c8f3e2.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-pl_TopMoviesPolska/playlist.m3u8
+#EXTINF:-1 tvg-name="Top Movies Polska (1080i)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" tvg-id="" group-title="Sweden",Top Movies Polska (1080i)
+https://top-movies-rakuten-tv-pl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6059/master.m3u8
 
 #EXTINF:-1 tvg-name="Viasat Explore Classic (720p)" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/1f51bd5f-5c9a-486d-8720-800de7f73129-width200-quality90.jpeg" tvg-id="" group-title="Sweden",Viasat Explore Classic (720p)
 https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLXBsX1ZpYXNhdEV4cGxvcmVfSExT/playlist.m3u8
@@ -4996,6 +5002,9 @@ https://cdn4.yayin.com.tr/tytturk/index.m3u8
 
 #EXTINF:-1 tvg-name="ÜÜ TV 1 (1080p)" tvg-logo="https://i.imgur.com/H5kOQz5.png" tvg-id="" group-title="Turkey",ÜÜ TV 1 (1080p)
 https://uskudarunv.mediatriple.net/uskudarunv/uskudar1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Viasat Explore" tvg-logo="https://i.imgur.com/DyT5pKB.png" tvg-id="" group-title="Turkey",Viasat Explore
+https://tv.arectv29.sbs/live/viasathistory.m3u8
 
 #EXTINF:-1 tvg-name="World Billiards (720p)" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png" tvg-id="" group-title="Turkey",World Billiards (720p)
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
@@ -5252,6 +5261,9 @@ https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
 #EXTINF:-1 tvg-name="24 Hour Free Movies (720p)" tvg-logo="https://i.imgur.com/iSVnzR1.png" tvg-id="" group-title="Usa",24 Hour Free Movies (720p)
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 
+#EXTINF:-1 tvg-name="AABC TV (480p)" tvg-logo="https://i.imgur.com/Spu4s89.png" tvg-id="" group-title="Usa",AABC TV (480p)
+https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8
+
 #EXTINF:-1 tvg-name="ABC 2 Baltimore MD (WMAR) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/db/2_ABC_WMAR_Baltimore.png" tvg-id="" group-title="Usa",ABC 2 Baltimore MD (WMAR) (720p)
 https://apollo.production-public.tubi.io/live/ac-wmar.m3u8
 
@@ -5396,9 +5408,6 @@ https://livevideo.tegnadigital.com/khou/v1/master/f9c1bf9ffd6ac86b6173a7c169ff6e
 #EXTINF:-1 tvg-name="CBS 32 Louisville KY (WLKY) (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png" tvg-id="" group-title="Usa",CBS 32 Louisville KY (WLKY) (720p)
 https://apollo.production-public.tubi.io/live/ac-wlky.m3u8
 
-#EXTINF:-1 tvg-name="Chino Hills City TV Channel 3/41 (360p)" tvg-logo="https://i.imgur.com/L0vaDea.png" tvg-id="" group-title="Usa",Chino Hills City TV Channel 3/41 (360p)
-https://edge-f.swagit.com/live/chinohillsca/smil:std-4x3-1-a/playlist.m3u8
-
 #EXTINF:-1 tvg-name="Cold Case Files (1080p)" tvg-logo="https://i.imgur.com/mowSfj6.png" tvg-id="" group-title="Usa",Cold Case Files (1080p)
 https://apollo.production-public.tubi.io/live/ac-cold-case-files.m3u8
 
@@ -5428,6 +5437,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 #EXTINF:-1 tvg-name="Entre nosotras" tvg-logo="https://i.imgur.com/udNvbj3.png" tvg-id="" group-title="Usa",Entre nosotras
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60492c67f4c48700075b5d37/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28a353-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=00afa782-3abe-443e-92b0-9964d3331bfa
+
+#EXTINF:-1 tvg-name="ESNE TV (480p)" tvg-logo="https://i.imgur.com/bwAuFgx.png" tvg-id="" group-title="Usa",ESNE TV (480p)
+http://190.2.212.209:8050/play/a0na
 
 #EXTINF:-1 tvg-name="ESR 24x7 eSports Network (1080p)" tvg-logo="https://satelliteprome.com/wp-content/uploads/2021/01/ESR-network.jpg" tvg-id="" group-title="Usa",ESR 24x7 eSports Network (1080p)
 https://eyeonesports.com/ES2RA-628g.m3u8
@@ -5548,6 +5560,9 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 #EXTINF:-1 tvg-name="KBRI Brighton Channel 8 (Brighton CO) (720p)" tvg-logo="https://i.imgur.com/r8lLsyh.png" tvg-id="" group-title="Usa",KBRI Brighton Channel 8 (Brighton CO) (720p)
 https://cdn3.wowza.com/5/R09KQXpaMWlrRjly/brightonco/G0883_001/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KFMB-DT2" tvg-logo="https://i.imgur.com/GCB3vun.png" tvg-id="" group-title="Usa",KFMB-DT2
+https://v1.thetvapp.to/hls/cw-kfmbtv2-san-diego-ca/index.m3u8
 
 #EXTINF:-1 tvg-name="KTOO 360TV 3 (FNX)" tvg-logo="https://i.imgur.com/ppn5oJy.png" tvg-id="" group-title="Usa",KTOO 360TV 3 (FNX)
 https://cdn3.wowza.com/5/ODB6NmF5K3l4T1h5/persis/2147483647_360tv_247/playlist.m3u8
@@ -5786,8 +5801,11 @@ https://d3mwqwqfak7y2q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 tvg-name="TokuSHOUTsu" tvg-logo="https://i.imgur.com/Ol0BBiV.png" tvg-id="" group-title="Usa",TokuSHOUTsu
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5c3f8f12a93c2d61b9990a4e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c73e3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a88f013-2601-41bd-9070-75701edcf852
 
-#EXTINF:-1 tvg-name="TVS Women Sports (720p)" tvg-logo="https://i.imgur.com/8hC4PfF.png" tvg-id="" group-title="Usa",TVS Women Sports (720p)
-https://bozztv.com/gusa/gusa-tvswsn/index.m3u8
+#EXTINF:-1 tvg-name="Universal Cinema (480p)" tvg-logo="https://i.imgur.com/XxfET68.png" tvg-id="" group-title="Usa",Universal Cinema (480p)
+http://190.2.212.209:8050/play/a0q3
+
+#EXTINF:-1 tvg-name="Universal Comedy (480p)" tvg-logo="https://i.imgur.com/avBL8pQ.png" tvg-id="" group-title="Usa",Universal Comedy (480p)
+http://190.2.212.209:8050/play/a0q4
 
 #EXTINF:-1 tvg-name="Vevo Reggaeton & Trap" tvg-logo="https://images.pluto.tv/channels/5f32f397795b750007706448/featuredImage.jpg" tvg-id="" group-title="Usa",Vevo Reggaeton & Trap
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f32f397795b750007706448/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ce915-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c81eefb9-90f6-4a75-9397-7b98312cde71
@@ -5813,11 +5831,11 @@ https://apollo.production-public.tubi.io/live/ac-wipeout-xtra.m3u8
 #EXTINF:-1 tvg-name="WMOR-TV News Lakeland FL (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/WMOR.svg/512px-WMOR.svg.png" tvg-id="" group-title="Usa",WMOR-TV News Lakeland FL (720p)
 https://apollo.production-public.tubi.io/live/ac-wmor.m3u8
 
+#EXTINF:-1 tvg-name="WNJU-DT1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png" tvg-id="" group-title="Usa",WNJU-DT1
+https://v1.thetvapp.to/hls/TelemundoEast/index.m3u8
+
 #EXTINF:-1 tvg-name="Women's Sports Network (720p)" tvg-logo="https://i.imgur.com/rhIwUcQ.png" tvg-id="" group-title="Usa",Women's Sports Network (720p)
 https://apollo.production-public.tubi.io/live/ac-fast-studios-womens-sports.m3u8
-
-#EXTINF:-1 tvg-name="Alcance TV" tvg-logo="https://i.imgur.com/veeuqS1.png" tvg-id="" group-title="Venezuela",Alcance TV
-https://videolatam.com:3516/live/tjjqdqurlive.m3u8
 
 #EXTINF:-1 tvg-name="Guaro TV (1080p)" tvg-logo="https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg" tvg-id="" group-title="Venezuela",Guaro TV (1080p)
 https://streamtv.intervenhosting.net:3592/live/guarotvbqtolive.m3u8
@@ -5833,6 +5851,9 @@ https://stream.wifiexpert.cl/telenorte/pandamaxch/playlist.m3u8
 
 #EXTINF:-1 tvg-name="PLTV (614p)" tvg-logo="https://i.imgur.com/ftblZ6f.jpg" tvg-id="" group-title="Venezuela",PLTV (614p)
 https://vcp2.myplaytv.com/pltv/pltv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="RCN Novelas (480p)" tvg-logo="https://i.imgur.com/9wxdWNQ.png" tvg-id="" group-title="Venezuela",RCN Novelas (480p)
+http://190.2.212.209:8050/play/a0ox
 
 #EXTINF:-1 tvg-name="SEO TV 1 (1080p)" tvg-logo="https://i.imgur.com/aTcJ5p3.png" tvg-id="" group-title="Venezuela",SEO TV 1 (1080p)
 https://seo.tv.bo/tv/SEOTV_1FHD.m3u8
@@ -5851,9 +5872,6 @@ https://seo.tv.bo/tv/SEOTV7.m3u8
 
 #EXTINF:-1 tvg-name="Somos Cultura TV (720p)" tvg-logo="https://i.imgur.com/kWR3END.png" tvg-id="" group-title="Venezuela",Somos Cultura TV (720p)
 https://srv.tropicalmoonmedia.com/somosculturatv/somosculturatv/playlist.m3u8
-
-#EXTINF:-1 tvg-name="TAM TV (240p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png" tvg-id="" group-title="Venezuela",TAM TV (240p)
-https://tv.webtuya.com:3726/live/tammeridalive.m3u8
 
 #EXTINF:-1 tvg-name="Telehit Musica (1080p)" tvg-logo="https://i.imgur.com/PfROac9.png" tvg-id="" group-title="Venezuela",Telehit Musica (1080p)
 http://190.60.42.86:8000/play/a02x/index.m3u8
